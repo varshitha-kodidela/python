@@ -10,3 +10,9 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+    a = 15
+b = 9
+c = 27
+
+largest = max(a, b, c)
+print("Largest number is:", largest)
