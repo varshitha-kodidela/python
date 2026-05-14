@@ -172,3 +172,10 @@ while True:
     if current == alarm:
         print("Wake up!")
         break
+        name = input("Enter a name: ")
+place = input("Enter a place: ")
+object = input("Enter an object: ")
+
+story = f"{name} went to {place} carrying a {object}."
+
+print(story)
