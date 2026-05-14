@@ -179,3 +179,8 @@ object = input("Enter an object: ")
 story = f"{name} went to {place} carrying a {object}."
 
 print(story)
+import random
+
+color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+
+print("Random Color:", color)
