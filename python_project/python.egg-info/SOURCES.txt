@@ -157,3 +157,8 @@ symbols = ["_", ".", "X", "99"]
 username = name + random.choice(symbols) + str(random.randint(10, 999))
 
 print("Generated Username:", username)
+binary = input("Enter binary number: ")
+
+decimal = int(binary, 2)
+
+print("Decimal:", decimal)
