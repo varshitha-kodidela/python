@@ -62,3 +62,19 @@ characters = string.ascii_letters + string.digits + string.punctuation
 password = "".join(random.choice(characters) for i in range(length))
 
 print("Generated Password:", password)
+import time
+
+sentence = "Python is fun to learn"
+
+print("Type this sentence:")
+print(sentence)
+
+start = time.time()
+
+typed = input()
+
+end = time.time()
+
+speed = len(typed.split()) / ((end - start) / 60)
+
+print("Typing speed:", round(speed, 2), "WPM")
