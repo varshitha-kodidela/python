@@ -31,3 +31,10 @@ print("Factorial:", fact)
 text = input("Enter a string: ")
 
 print("Reversed:", text[::-1])
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
