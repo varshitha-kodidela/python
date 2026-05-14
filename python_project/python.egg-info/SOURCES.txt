@@ -137,3 +137,14 @@ for char in message:
     encoded += chr(ord(char) + 2)
 
 print("Encoded:", encoded)
+import random
+
+fortunes = [
+    "You will become rich.",
+    "Today is your lucky day.",
+    "A surprise is waiting for you.",
+    "Sleep more. You need it.",
+    "Your code will finally work."
+]
+
+print(random.choice(fortunes))
