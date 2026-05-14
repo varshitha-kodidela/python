@@ -119,3 +119,8 @@ while seconds:
     seconds -= 1
 
 print("Time's up!")
+import random
+
+emojis = ["🔥", "✨", "😎", "🚀", "💀", "🌸", "🎧"]
+
+print("Your emoji:", random.choice(emojis))
