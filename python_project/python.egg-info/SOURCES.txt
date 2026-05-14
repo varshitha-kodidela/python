@@ -213,3 +213,12 @@ rows = 5
 
 for i in range(rows):
     print("*" * (i + 1))
+    from gtts import gTTS
+
+text = input("Enter text to convert into speech: ")
+
+tts = gTTS(text=text, lang='en')
+
+tts.save("voice.mp3")
+
+print("Audio saved as voice.mp3")
