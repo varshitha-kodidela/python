@@ -184,3 +184,9 @@ import random
 color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
 
 print("Random Color:", color)
+word = input("Enter a word: ")
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
