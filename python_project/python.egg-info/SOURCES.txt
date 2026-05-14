@@ -16,3 +16,7 @@ c = 27
 
 largest = max(a, b, c)
 print("Largest number is:", largest)
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
