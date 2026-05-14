@@ -78,3 +78,13 @@ end = time.time()
 speed = len(typed.split()) / ((end - start) / 60)
 
 print("Typing speed:", round(speed, 2), "WPM")
+mood = input("How are you feeling? ").lower()
+
+quotes = {
+    "happy": "Keep shining!",
+    "sad": "Better days are coming.",
+    "tired": "Rest and recharge.",
+    "angry": "Take a deep breath."
+}
+
+print(quotes.get(mood, "You are amazing!"))
