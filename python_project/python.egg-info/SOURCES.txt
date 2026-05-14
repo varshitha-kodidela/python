@@ -88,3 +88,13 @@ quotes = {
 }
 
 print(quotes.get(mood, "You are amazing!"))
+import random
+import time
+import os
+
+chars = "01"
+
+while True:
+    line = "".join(random.choice(chars) for _ in range(60))
+    print(line)
+    time.sleep(0.1)
