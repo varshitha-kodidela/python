@@ -364,3 +364,12 @@ password = ''.join(random.choice(
 ) for _ in range(12))
 
 print("WiFi Password:", password)
+import time
+
+input("Press Enter to start")
+start = time.time()
+
+input("Press Enter to stop")
+end = time.time()
+
+print("Elapsed Time:", round(end - start, 2), "seconds")
