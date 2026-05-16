@@ -382,3 +382,14 @@ facts = [
 ]
 
 print(random.choice(facts))
+expenses = []
+
+while True:
+    amount = input("Enter expense (or q to quit): ")
+
+    if amount == "q":
+        break
+
+    expenses.append(float(amount))
+
+print("Total Expenses:", sum(expenses))
