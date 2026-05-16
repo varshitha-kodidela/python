@@ -310,3 +310,13 @@ img = Image.open("qr.png")
 result = decode(img)
 
 print(result[0].data.decode())
+text = input("Enter mood: ")
+
+emojis = {
+    "happy": "😄",
+    "sad": "😢",
+    "cool": "😎",
+    "love": "❤️"
+}
+
+print(emojis.get(text, "✨"))
