@@ -373,3 +373,12 @@ input("Press Enter to stop")
 end = time.time()
 
 print("Elapsed Time:", round(end - start, 2), "seconds")
+import random
+
+facts = [
+    "Octopuses have three hearts.",
+    "Bananas are berries.",
+    "Honey never spoils."
+]
+
+print(random.choice(facts))
