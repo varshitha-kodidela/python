@@ -233,3 +233,15 @@ captions = [
 ]
 
 print(random.choice(captions))
+import speedtest
+
+wifi = speedtest.Speedtest()
+
+print("Downloading...")
+download = wifi.download() / 1_000_000
+
+print("Uploading...")
+upload = wifi.upload() / 1_000_000
+
+print(f"Download Speed: {download:.2f} Mbps")
+print(f"Upload Speed: {upload:.2f} Mbps")
