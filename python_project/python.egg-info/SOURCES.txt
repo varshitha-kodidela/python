@@ -296,3 +296,9 @@ notification.notify(
     message="Drink water!",
     timeout=5
 )
+name1 = input("First name: ")
+name2 = input("Second name: ")
+
+score = (len(name1) + len(name2)) * 7
+
+print("Love Percentage:", score % 101, "%")
