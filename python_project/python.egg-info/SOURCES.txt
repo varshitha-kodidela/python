@@ -302,3 +302,11 @@ name2 = input("Second name: ")
 score = (len(name1) + len(name2)) * 7
 
 print("Love Percentage:", score % 101, "%")
+from pyzbar.pyzbar import decode
+from PIL import Image
+
+img = Image.open("qr.png")
+
+result = decode(img)
+
+print(result[0].data.decode())
