@@ -258,3 +258,12 @@ with open("passwords.txt", "a") as file:
     file.write(f"{site}: {password}\n")
 
 print("Password saved!")
+import time
+
+animation = ["|", "/", "-", "\\"]
+
+for i in range(20):
+    print(animation[i % 4], end="\r")
+    time.sleep(0.2)
+
+print("Done!")
