@@ -356,3 +356,11 @@ sd.wait()
 write("output.wav", fs, recording)
 
 print("Saved!")
+import random
+import string
+
+password = ''.join(random.choice(
+    string.ascii_letters + string.digits
+) for _ in range(12))
+
+print("WiFi Password:", password)
