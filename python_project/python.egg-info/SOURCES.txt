@@ -204,6 +204,7 @@ else:
 
 jokes = [
     "Why do programmers hate nature? Too many bugs.",
+
     "Python programmers don't byte, they hiss.",
     "Debugging: Removing the needles from the haystack."
 ]
@@ -222,3 +223,13 @@ tts = gTTS(text=text, lang='en')
 tts.save("voice.mp3")
 
 print("Audio saved as voice.mp3")
+import random
+
+captions = [
+    "When the code works on first try 😎",
+    "Me fixing one bug and creating ten more 💀",
+    "POV: Deadline is tomorrow",
+    "Programmer by day, debugger by night"
+]
+
+print(random.choice(captions))
