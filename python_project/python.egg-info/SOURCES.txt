@@ -289,3 +289,10 @@ usd = float(input("Enter USD amount: "))
 inr = usd * 83
 
 print("INR:", inr)
+from plyer import notification
+
+notification.notify(
+    title="Reminder",
+    message="Drink water!",
+    timeout=5
+)
