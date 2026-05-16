@@ -325,3 +325,9 @@ import random
 for i in range(5):
     color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
     print(color)
+    weight = float(input("Enter weight (kg): "))
+height = float(input("Enter height (m): "))
+
+bmi = weight / (height ** 2)
+
+print("BMI:", round(bmi, 2))
