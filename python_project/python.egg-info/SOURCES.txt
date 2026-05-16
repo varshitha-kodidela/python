@@ -284,3 +284,8 @@ text = file.read()
 words = len(text.split())
 
 print("Word Count:", words)
+usd = float(input("Enter USD amount: "))
+
+inr = usd * 83
+
+print("INR:", inr)
