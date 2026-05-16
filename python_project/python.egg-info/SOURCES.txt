@@ -277,3 +277,10 @@ songs = [
 ]
 
 print("Now Playing:", random.choice(songs))
+file = open("sample.txt", "r")
+
+text = file.read()
+
+words = len(text.split())
+
+print("Word Count:", words)
