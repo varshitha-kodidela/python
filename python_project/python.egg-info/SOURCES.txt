@@ -470,3 +470,14 @@ server.login(sender, password)
 server.sendmail(sender, receiver, message)
 
 print("Email sent!")
+import random
+
+challenges = [
+    "Build a calculator",
+    "Make a chatbot",
+    "Create a game",
+    "Design a portfolio"
+]
+
+print("Today's challenge:")
+print(random.choice(challenges))
