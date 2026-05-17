@@ -393,3 +393,15 @@ while True:
     expenses.append(float(amount))
 
 print("Total Expenses:", sum(expenses))
+import random
+
+responses = [
+    "Analyzing data...",
+    "AI predicts success!",
+    "Processing complete.",
+    "Generating futuristic answer..."
+]
+
+question = input("Ask AI something: ")
+
+print(random.choice(responses))
