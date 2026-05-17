@@ -576,3 +576,13 @@ bot = pyttsx3.init()
 bot.say("Hello, welcome back!")
 
 bot.runAndWait()
+import random
+
+quotes = [
+    "Keep going!",
+    "Believe in yourself!",
+    "Consistency beats talent.",
+    "Small progress is still progress."
+]
+
+print(random.choice(quotes))
