@@ -455,3 +455,18 @@ team2 = players[3:]
 
 print("Team 1:", team1)
 print("Team 2:", team2)
+import smtplib
+
+sender = "yourmail@gmail.com"
+receiver = "friend@gmail.com"
+password = "password"
+
+message = "Hello from Python!"
+
+server = smtplib.SMTP("smtp.gmail.com", 587)
+server.starttls()
+
+server.login(sender, password)
+server.sendmail(sender, receiver, message)
+
+print("Email sent!")
