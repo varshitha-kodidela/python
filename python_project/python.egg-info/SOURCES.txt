@@ -547,3 +547,8 @@ with open("notes.txt", "w") as file:
     file.write(text)
 
 print("File saved!")
+import random
+
+names = ["Varshitha", "Rahul", "Ananya", "David"]
+
+print("Selected:", random.choice(names))
