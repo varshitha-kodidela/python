@@ -412,3 +412,25 @@ brightness = int(input("Enter brightness (0-100): "))
 sbc.set_brightness(brightness)
 
 print("Brightness changed!")
+import random
+
+faces = [
+    "(⌐■_■)",
+    "(ᵔᴥᵔ)",
+    "(ಠ_ಠ)",
+    "(╯°□°）╯",
+    "(づ｡◕‿‿◕｡)づ"
+]
+
+print(random.choice(faces))
+import random
+
+faces = [
+    "(⌐■_■)",
+    "(ᵔᴥᵔ)",
+    "(ಠ_ಠ)",
+    "(╯°□°）╯",
+    "(づ｡◕‿‿◕｡)づ"
+]
+
+print(random.choice(faces))
