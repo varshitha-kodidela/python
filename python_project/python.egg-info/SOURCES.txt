@@ -405,3 +405,10 @@ responses = [
 question = input("Ask AI something: ")
 
 print(random.choice(responses))
+import screen_brightness_control as sbc
+
+brightness = int(input("Enter brightness (0-100): "))
+
+sbc.set_brightness(brightness)
+
+print("Brightness changed!")
