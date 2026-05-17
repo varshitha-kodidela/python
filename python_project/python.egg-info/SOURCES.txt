@@ -526,3 +526,13 @@ movies = [
 ]
 
 print("Watch:", random.choice(movies))
+import random
+
+compliments = [
+    "You are awesome!",
+    "Your code is improving fast!",
+    "You have creative ideas!",
+    "Future developer detected!"
+]
+
+print(random.choice(compliments))
