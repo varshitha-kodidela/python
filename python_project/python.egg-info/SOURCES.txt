@@ -434,3 +434,13 @@ faces = [
 ]
 
 print(random.choice(faces))
+import os
+import shutil
+
+source = "Downloads"
+
+for file in os.listdir(source):
+    if file.endswith(".jpg"):
+        shutil.move(source + "/" + file, "Images/" + file)
+
+print("Files organized!")
