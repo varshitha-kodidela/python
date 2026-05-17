@@ -494,3 +494,12 @@ while True:
 print("Your Tasks:")
 for t in tasks:
     print("-", t)
+    import time
+
+print("Scanning system...")
+
+for i in range(1, 101):
+    print(f"{i}% complete", end="\r")
+    time.sleep(0.05)
+
+print("\nNo threats found!")
